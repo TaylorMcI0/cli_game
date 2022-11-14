@@ -69,23 +69,23 @@ int main() {
 
         cout << "Awaken.\n";
         cin >> input;
-        str = (input == "sixtynine") ? rollDice(20) : rollDice(10);
+        str = (input == "its") ? rollDice(20) : rollDice(10);
 
         cout << "Breathe.\n";
         cin >> input;
-        end = (input == "fourtwenty") ? rollDice(20) : rollDice(10);
+        end = (input == "dangerous") ? rollDice(20) : rollDice(10);
 
         cout << "Remember Self.\n";
         cin >> input;
-        per = (input == "cherries") ? rollDice(20) : rollDice(10);
+        per = (input == "to") ? rollDice(20) : rollDice(10);
 
         cout << "Gather Surroundings.\n";
         cin >> input;
-        inte = (input == "bullshit") ? rollDice(20) : rollDice(10);
+        inte = (input == "go") ? rollDice(20) : rollDice(10);
 
         cout << "Open Eyes.\n";
         cin >> input;
-        lu = (input == "cuckold") ? rollDice(20) : rollDice(10);
+        lu = (input == "alone") ? rollDice(20) : rollDice(10);
 
         gameLoop(str, end, per, inte, lu);
         } else {
